@@ -16,10 +16,6 @@ public class MapObjectCalculadora extends ClaseBase
 	
 	// MAPEO DE ELEMENTOS - CALCULADORA VIVO
 		protected By btnNumeros = By.xpath("//android.widget.ImageButton[@content-desc='{0}']"); // XPATH DINAMICO DE LOS NUMEROS DE LA CALCULADORA
-		
-		
-		
-		
 		protected By btnOperadoresAritmeticos = By.xpath("//android.widget.ImageButton[@content-desc='{0}']"); // XPATH DINAMICO DE LOS OPERADORES ARITMETICOS
 		protected By igual = By.id("com.vivo.calculator:id/equal"); // IGUAL		
 		protected By resultadoOperacion = By.xpath("//android.widget.EditText[@content-desc='384']");
