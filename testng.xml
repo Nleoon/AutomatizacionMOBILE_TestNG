@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <parameter name="platformName" value="Android"></parameter>
+	<parameter name="deviceName" value="155751651000DWF"></parameter>
+	<parameter name="platformVersion" value="12"></parameter>
+	<parameter name="noReset" value="true"></parameter>
+	<parameter name="autoGrantPermissions" value="true"></parameter>
+	<parameter name="logoCalculadora" value="./imagenes/logoCalculadora.png"></parameter>
+	<parameter name="logoMER" value="./imagenes/logoMER.png"></parameter>
+	<parameter name="logoTOOLS" value="./imagenes/logoTOOLS.png"></parameter>
+    <classes>
+      <class name="ClasesBase.ClaseBase"/>
+      <class name="RunPruebas.RunPrueba"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

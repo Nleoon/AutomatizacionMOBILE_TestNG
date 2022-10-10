@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-07T11:36:01 COT" name="Suite" finished-at="2022-10-07T11:37:04 COT" duration-ms="62589">
+    <groups>
+    </groups>
+    <test started-at="2022-10-07T11:36:01 COT" name="Test" finished-at="2022-10-07T11:37:04 COT" duration-ms="62589">
+      <class name="RunPruebas.RunPrueba">
+        <test-method is-config="true" signature="beforeClass(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:36:01 COT" name="beforeClass" finished-at="2022-10-07T11:36:01 COT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[155751651000DWF]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[./imagenes/logoCalculadora.png]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[./imagenes/logoMER.png]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[./imagenes/logoTOOLS.png]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="operacionCalculadora(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:36:02 COT" name="operacionCalculadora" description="Automatización de calculadora, operaciones de mas de una cifra" data-provider="busquedaCalculadora" finished-at="2022-10-07T11:36:02 COT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.vivo.calculator]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.vivo.calculator.Calculator]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Multiplicar]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- operacionCalculadora -->
+        <test-method signature="pruebaMercadolibreWeb(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:36:02 COT" name="pruebaMercadolibreWeb" description="Automatización de Mercadolibre en web mobile, Seleccionar primer resultado de busqueda, agregar al carrito e ingresar en la cuenta" data-provider="busquedaMercadolibreWeb" finished-at="2022-10-07T11:37:03 COT" duration-ms="61293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.chromium.chrome.browser.ChromeTabbedActivity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://www.mercadolibre.com.mx]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PC]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pruebaMercado@mobile.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaMercadolibreWeb -->
+        <test-method signature="pruebaAlerts(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:37:03 COT" name="pruebaAlerts" description="Automatización de TOOLSQA alerts mobile" data-provider="busquedaToolsQAalerts" finished-at="2022-10-07T11:37:03 COT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.chromium.chrome.browser.ChromeTabbedActivity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[PruebaAlerts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaAlerts -->
+        <test-method signature="pruebaWidgets(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:37:03 COT" name="pruebaWidgets" description="Automatización de TOOLSQA widgets mobile" data-provider="busquedaToolsQAwidgets" finished-at="2022-10-07T11:37:03 COT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[NO]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SI]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[com.android.chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.chromium.chrome.browser.ChromeTabbedActivity]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://demoqa.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pruebaWidgets -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:RunPruebas.RunPrueba@1e0b4072]" started-at="2022-10-07T11:37:03 COT" name="afterClass" finished-at="2022-10-07T11:37:04 COT" duration-ms="673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- RunPruebas.RunPrueba -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
